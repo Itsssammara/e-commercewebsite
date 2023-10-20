@@ -15,7 +15,7 @@ body {
 
 
 header {
-  background-color: #362e2e;
+  background-color: #ff879c;
   padding: 30px;
   text-align: center;
   font-size: 35px;
@@ -24,14 +24,17 @@ header {
 
 
 nav {
-  float: left;
+  float: inline-end;
   width: 30%;
   height: 400px;
-  background: #ccc;
+  background: #ffa6b5;
   padding: 20px;
 }
-
-
+a{
+    text-decoration: none;
+    color: #ffffff;
+    padding: 10px;
+}
 nav ul {
   list-style-type: none;
   padding: 0;
@@ -54,7 +57,7 @@ section::after {
 
 /* Style the footer */
 footer {
-  background-color: #2b2828;
+  background-color: #ff879c;
   padding: 10px;
   text-align: center;
   color: white;
@@ -71,26 +74,49 @@ footer {
 </head>
 <body>
 <header>
+  <div class="container">
+    <div class="navbar">
+        <div class="logo">
+            <img src="/pics/logo.png" width="125px">
+        </div>
+        <div class="row">
+          <div class="col-2">
   <h2>About Otaku</h2>
 </header>
 
 <section>
+  </div>
   <nav>
-    <ul>
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Contact</a></li>
-      <li><a href="#">Product</a></li>
-      <li><a href="#">form</a></li>
-    </ul>
-  </nav>
+    <div class="navig">
+        <a href="/html/landingPage.html">Home</a>
+        <a href="/html/product.html">Products</a>
+        <a href="#">About</a>
+        <a href="/html/contactPage.html">Contact</a>
+        <a href="/html/checkoutPage.html">Check Out</a>
+    </div>
+    </nav>
+    <article>
+      <h1>Our Mission</h1>
+    <p>"I Have To Live Up To The Hopes Of Those Who Supported Me." — Izuku Midoriya</p>
+    <p>Here at Otaku, we aim to provide Anime Lovers with their favourite merchandise; from accessories to comfortable clothing decorated with your favourite character(s).<br>
+      <h1>What do we do?</h1> We provide the highest quality products possible at the lowest possible price.Our products are brand new from the manufacturer and our friendly and knowledgeable customer service team will do their best to answer any question you may have regarding our products and services.</p>
+    </article>
+  </section>
+
+  <div class="collage">
+    <section id="sec1">
   
-  <article>
-    <h1>Our Mission</h1>
-  <p>“If you don’t take risks, you can’t create a future!” -Monkey D. Luffy (One Piece)</p>
-  <p>Here at Otaku, we aim to provide Anime Lovers with their favourite merchandise; from accessories to comfortable clothing decorated with your favourite character(s).We provide the highest quality products possible at the lowest possible price. Our products are brand new from the manufacturer and our friendly and knowledgeable customer service team will do their best to answer any question you may have regarding our products and services.</p>
-  </article>
+  
 </section>
 
+<div class="img">
+<div class="anime">
+<section id="sec2">
+  <img src="/pics/8-anime collage.jpg" width="300" height="300">
+</div>
+</section>
+  </div>
+</div>
 <footer>
 </footer>
 
